@@ -1,0 +1,175 @@
+[debug] [2025-01-21T23:09:34.859Z] ----------------------------------------------------------------------
+[debug] [2025-01-21T23:09:34.867Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\mario\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2025-01-21T23:09:34.868Z] CLI Version:   13.29.1
+[debug] [2025-01-21T23:09:34.869Z] Platform:      win32
+[debug] [2025-01-21T23:09:34.869Z] Node Version:  v22.7.0
+[debug] [2025-01-21T23:09:34.870Z] Time:          Wed Jan 22 2025 00:09:34 GMT+0100 (Central European Standard Time)
+[debug] [2025-01-21T23:09:34.870Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-01-21T23:09:34.898Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-01-21T23:09:34.900Z] > authorizing via signed-in user (marioemorac@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\mario\workshopfirebase\backend
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2025-01-21T23:10:37.296Z] ----------------------------------------------------------------------
+[debug] [2025-01-21T23:10:37.305Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\mario\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2025-01-21T23:10:37.306Z] CLI Version:   13.29.1
+[debug] [2025-01-21T23:10:37.307Z] Platform:      win32
+[debug] [2025-01-21T23:10:37.307Z] Node Version:  v22.7.0
+[debug] [2025-01-21T23:10:37.308Z] Time:          Wed Jan 22 2025 00:10:37 GMT+0100 (Central European Standard Time)
+[debug] [2025-01-21T23:10:37.309Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-01-21T23:10:37.336Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-01-21T23:10:37.337Z] > authorizing via signed-in user (marioemorac@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\mario\workshopfirebase\backend
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2025-01-21T23:13:54.695Z] Checked if tokens are valid: false, expires at: 1737334338919
+[debug] [2025-01-21T23:13:54.695Z] Checked if tokens are valid: false, expires at: 1737334338919
+[debug] [2025-01-21T23:13:54.696Z] > refreshing access token with scopes: []
+[debug] [2025-01-21T23:13:54.703Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-01-21T23:13:54.703Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-01-21T23:13:54.972Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-01-21T23:13:54.972Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-01-21T23:13:55.001Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2025-01-21T23:13:55.411Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2025-01-21T23:13:55.411Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project workshopdefunctions (workshopdefunctions) 
+[info] 
+=== Firestore Setup
+[debug] [2025-01-21T23:14:01.713Z] Checked if tokens are valid: true, expires at: 1737504833972
+[debug] [2025-01-21T23:14:01.713Z] Checked if tokens are valid: true, expires at: 1737504833972
+[debug] [2025-01-21T23:14:01.714Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/workshopdefunctions/services/firestore.googleapis.com [none]
+[debug] [2025-01-21T23:14:01.714Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/workshopdefunctions/services/firestore.googleapis.com x-goog-quota-user=projects/workshopdefunctions
+[debug] [2025-01-21T23:14:02.557Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/workshopdefunctions/services/firestore.googleapis.com 200
+[debug] [2025-01-21T23:14:02.557Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/workshopdefunctions/services/firestore.googleapis.com [omitted]
+[debug] [2025-01-21T23:14:02.558Z] Checked if tokens are valid: true, expires at: 1737504833972
+[debug] [2025-01-21T23:14:02.558Z] Checked if tokens are valid: true, expires at: 1737504833972
+[debug] [2025-01-21T23:14:02.559Z] >>> [apiv2][query] GET https://firestore.googleapis.com/v1/projects/workshopdefunctions/databases/(default) [none]
+[debug] [2025-01-21T23:14:02.815Z] <<< [apiv2][status] GET https://firestore.googleapis.com/v1/projects/workshopdefunctions/databases/(default) 200
+[debug] [2025-01-21T23:14:02.816Z] <<< [apiv2][body] GET https://firestore.googleapis.com/v1/projects/workshopdefunctions/databases/(default) {"name":"projects/workshopdefunctions/databases/(default)","uid":"81ccc4d8-a243-4d60-8706-c8fed17d3fa2","createTime":"2025-01-18T18:20:25.600822Z","updateTime":"2025-01-18T18:20:25.600822Z","locationId":"eur3","type":"FIRESTORE_NATIVE","concurrencyMode":"PESSIMISTIC","versionRetentionPeriod":"3600s","earliestVersionTime":"2025-01-21T22:14:02.388768Z","appEngineIntegrationMode":"DISABLED","keyPrefix":"e","pointInTimeRecoveryEnablement":"POINT_IN_TIME_RECOVERY_DISABLED","deleteProtectionState":"DELETE_PROTECTION_DISABLED","databaseEdition":"STANDARD","etag":"IN/b5cL4h4sDMOOwyc/3gosD"}
+[debug] [2025-01-21T23:14:02.816Z] database_type: FIRESTORE_NATIVE
+[debug] [2025-01-21T23:14:02.817Z] database_type: FIRESTORE_NATIVE
+[debug] [2025-01-21T23:14:02.817Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-01-21T23:14:02.818Z] > authorizing via signed-in user (marioemorac@gmail.com)
+[debug] [2025-01-21T23:14:02.818Z] [iam] checking project workshopdefunctions for permissions ["firebase.projects.get"]
+[debug] [2025-01-21T23:14:02.819Z] Checked if tokens are valid: true, expires at: 1737504833972
+[debug] [2025-01-21T23:14:02.819Z] Checked if tokens are valid: true, expires at: 1737504833972
+[debug] [2025-01-21T23:14:02.820Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/workshopdefunctions:testIamPermissions [none]
+[debug] [2025-01-21T23:14:02.820Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/workshopdefunctions:testIamPermissions x-goog-quota-user=projects/workshopdefunctions
+[debug] [2025-01-21T23:14:02.820Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/workshopdefunctions:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2025-01-21T23:14:03.476Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/workshopdefunctions:testIamPermissions 200
+[debug] [2025-01-21T23:14:03.477Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/workshopdefunctions:testIamPermissions {"permissions":["firebase.projects.get"]}
+[info] 
+[info] Firestore Security Rules allow you to define how and when to allow
+[info] requests. You can keep these rules in your project directory
+[info] and publish them with firebase deploy.
+[info] 
+[debug] [2025-01-21T23:14:55.017Z] Checked if tokens are valid: true, expires at: 1737504833972
+[debug] [2025-01-21T23:14:55.018Z] Checked if tokens are valid: true, expires at: 1737504833972
+[debug] [2025-01-21T23:14:55.018Z] >>> [apiv2][query] GET https://firebaserules.googleapis.com/v1/projects/workshopdefunctions/releases pageSize=10&pageToken=
+[debug] [2025-01-21T23:14:55.750Z] <<< [apiv2][status] GET https://firebaserules.googleapis.com/v1/projects/workshopdefunctions/releases 200
+[debug] [2025-01-21T23:14:55.751Z] <<< [apiv2][body] GET https://firebaserules.googleapis.com/v1/projects/workshopdefunctions/releases {"releases":[{"name":"projects/workshopdefunctions/releases/cloud.firestore","rulesetName":"projects/workshopdefunctions/rulesets/3a566ac3-520f-46f0-bdd1-cdc9d5a60ae0","createTime":"2025-01-18T18:20:32.154658Z","updateTime":"2025-01-18T18:20:32.154658Z"}]}
+[debug] [2025-01-21T23:14:55.751Z] Found ruleset: projects/workshopdefunctions/rulesets/3a566ac3-520f-46f0-bdd1-cdc9d5a60ae0
+[debug] [2025-01-21T23:14:55.752Z] Checked if tokens are valid: true, expires at: 1737504833972
+[debug] [2025-01-21T23:14:55.753Z] Checked if tokens are valid: true, expires at: 1737504833972
+[debug] [2025-01-21T23:14:55.753Z] >>> [apiv2][query] GET https://firebaserules.googleapis.com/v1/projects/workshopdefunctions/rulesets/3a566ac3-520f-46f0-bdd1-cdc9d5a60ae0 [none]
+[debug] [2025-01-21T23:14:56.392Z] <<< [apiv2][status] GET https://firebaserules.googleapis.com/v1/projects/workshopdefunctions/rulesets/3a566ac3-520f-46f0-bdd1-cdc9d5a60ae0 200
+[debug] [2025-01-21T23:14:56.392Z] <<< [apiv2][body] GET https://firebaserules.googleapis.com/v1/projects/workshopdefunctions/rulesets/3a566ac3-520f-46f0-bdd1-cdc9d5a60ae0 [omitted]
+[info] 
+[info] Firestore indexes allow you to perform complex queries while
+[info] maintaining performance that scales with the size of the result
+[info] set. You can keep index definitions in your project directory
+[info] and publish them with firebase deploy.
+[info] 
+[debug] [2025-01-21T23:14:58.064Z] Checked if tokens are valid: true, expires at: 1737504833972
+[debug] [2025-01-21T23:14:58.064Z] Checked if tokens are valid: true, expires at: 1737504833972
+[debug] [2025-01-21T23:14:58.065Z] Checked if tokens are valid: true, expires at: 1737504833972
+[debug] [2025-01-21T23:14:58.065Z] Checked if tokens are valid: true, expires at: 1737504833972
+[debug] [2025-01-21T23:14:58.066Z] >>> [apiv2][query] GET https://firestore.googleapis.com/v1/projects/workshopdefunctions/databases/(default)/collectionGroups/-/indexes [none]
+[debug] [2025-01-21T23:14:58.072Z] >>> [apiv2][query] GET https://firestore.googleapis.com/v1/projects/workshopdefunctions/databases/(default)/collectionGroups/-/fields?filter=indexConfig.usesAncestorConfig=false OR ttlConfig:* [none]
+[debug] [2025-01-21T23:14:58.292Z] <<< [apiv2][status] GET https://firestore.googleapis.com/v1/projects/workshopdefunctions/databases/(default)/collectionGroups/-/fields?filter=indexConfig.usesAncestorConfig=false OR ttlConfig:* 200
+[debug] [2025-01-21T23:14:58.292Z] <<< [apiv2][body] GET https://firestore.googleapis.com/v1/projects/workshopdefunctions/databases/(default)/collectionGroups/-/fields?filter=indexConfig.usesAncestorConfig=false OR ttlConfig:* {"fields":[{"name":"projects/workshopdefunctions/databases/(default)/collectionGroups/__default__/fields/*","indexConfig":{"indexes":[{"queryScope":"COLLECTION","fields":[{"fieldPath":"*","order":"ASCENDING"}],"state":"READY"},{"queryScope":"COLLECTION","fields":[{"fieldPath":"*","order":"DESCENDING"}],"state":"READY"},{"queryScope":"COLLECTION","fields":[{"fieldPath":"*","arrayConfig":"CONTAINS"}],"state":"READY"}]}}]}
+[debug] [2025-01-21T23:14:58.294Z] <<< [apiv2][status] GET https://firestore.googleapis.com/v1/projects/workshopdefunctions/databases/(default)/collectionGroups/-/indexes 200
+[debug] [2025-01-21T23:14:58.294Z] <<< [apiv2][body] GET https://firestore.googleapis.com/v1/projects/workshopdefunctions/databases/(default)/collectionGroups/-/indexes {}
+[info] 
+=== Functions Setup
+[debug] [2025-01-21T23:14:58.309Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-01-21T23:14:58.310Z] > authorizing via signed-in user (marioemorac@gmail.com)
+[debug] [2025-01-21T23:14:58.310Z] [iam] checking project workshopdefunctions for permissions ["firebase.projects.get"]
+[debug] [2025-01-21T23:14:58.310Z] Checked if tokens are valid: true, expires at: 1737504833972
+[debug] [2025-01-21T23:14:58.311Z] Checked if tokens are valid: true, expires at: 1737504833972
+[debug] [2025-01-21T23:14:58.311Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/workshopdefunctions:testIamPermissions [none]
+[debug] [2025-01-21T23:14:58.311Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/workshopdefunctions:testIamPermissions x-goog-quota-user=projects/workshopdefunctions
+[debug] [2025-01-21T23:14:58.312Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/workshopdefunctions:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2025-01-21T23:14:58.927Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/workshopdefunctions:testIamPermissions 200
+[debug] [2025-01-21T23:14:58.927Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/workshopdefunctions:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2025-01-21T23:14:58.928Z] Checked if tokens are valid: true, expires at: 1737504833972
+[debug] [2025-01-21T23:14:58.928Z] Checked if tokens are valid: true, expires at: 1737504833972
+[debug] [2025-01-21T23:14:58.929Z] Checked if tokens are valid: true, expires at: 1737504833972
+[debug] [2025-01-21T23:14:58.929Z] Checked if tokens are valid: true, expires at: 1737504833972
+[debug] [2025-01-21T23:14:58.929Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/workshopdefunctions/services/cloudfunctions.googleapis.com [none]
+[debug] [2025-01-21T23:14:58.929Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/workshopdefunctions/services/cloudfunctions.googleapis.com x-goog-quota-user=projects/workshopdefunctions
+[debug] [2025-01-21T23:14:58.934Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/workshopdefunctions/services/runtimeconfig.googleapis.com [none]
+[debug] [2025-01-21T23:14:58.934Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/workshopdefunctions/services/runtimeconfig.googleapis.com x-goog-quota-user=projects/workshopdefunctions
+[debug] [2025-01-21T23:14:59.737Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/workshopdefunctions/services/cloudfunctions.googleapis.com 200
+[debug] [2025-01-21T23:14:59.738Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/workshopdefunctions/services/cloudfunctions.googleapis.com [omitted]
+[debug] [2025-01-21T23:14:59.780Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/workshopdefunctions/services/runtimeconfig.googleapis.com 200
+[debug] [2025-01-21T23:14:59.780Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/workshopdefunctions/services/runtimeconfig.googleapis.com [omitted]
+[info] Let's create a new codebase for your functions.
+[info] A directory corresponding to the codebase will be created in your project
+[info] with sample code pre-configured.
+
+[info] See https://firebase.google.com/docs/functions/organize-functions for
+[info] more information on organizing your functions using codebases.
+
+[info] Functions can be deployed with firebase deploy.
+
+[info] +  Wrote functions/package.json 
+[info] +  Wrote functions/.eslintrc.js 
+[info] +  Wrote functions/tsconfig.json 
+[info] +  Wrote functions/tsconfig.dev.json 
+[info] +  Wrote functions/src/index.ts 
+[info] +  Wrote functions/.gitignore 
+[info] 
+=== Hosting Setup
+[debug] [2025-01-21T23:18:00.782Z] Checked if tokens are valid: true, expires at: 1737504833972
+[debug] [2025-01-21T23:18:00.783Z] Checked if tokens are valid: true, expires at: 1737504833972
+[debug] [2025-01-21T23:18:00.783Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/workshopdefunctions [none]
+[debug] [2025-01-21T23:18:01.028Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/workshopdefunctions 200
+[debug] [2025-01-21T23:18:01.029Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/workshopdefunctions {"projectId":"workshopdefunctions","projectNumber":"125197369394","displayName":"workshopdefunctions","name":"projects/workshopdefunctions","resources":{"hostingSite":"workshopdefunctions"},"state":"ACTIVE","etag":"1_ea75b324-09dc-4c14-81d8-55c92666366d"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
