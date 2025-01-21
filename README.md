@@ -1,4 +1,4 @@
-[Firebase Workshop](https://www.gstatic.com/devrel-devsite/prod/vda41147226ae308b24384f785d31d739107d2716272d99cd11c490ff3892954d/firebase/images/lockup.svg)
+![Firebase Workshop](https://cdn.iconscout.com/icon/free/png-512/free-firebase-logo-icon-download-in-svg-png-gif-file-formats--technology-social-media-company-brand-vol-3-pack-logos-icons-2944871.png?f=webp&w=256)
 
 # Firebase Workshop
 
@@ -50,3 +50,18 @@ It is important to acknowledge the fact that, behind the scenes, all the Firebas
 - Use the default values for the upcoming questions. When prompted for a language, select as desired. In this case, Typescript will be the preferred option.
 
 - It is optional to use ESLint, and it is recommended to install dependencies right away.
+
+- For the upcoming questions:
+
+    - **What do you want to use as your public directory?** (recomended to leave it as public)
+    - **Configure as a single-page app (rewrite all urls to /index.html)?** (in this particular case, yes)
+    - **Set up automatic builds and deploys with GitHub?** (in this particular case, yes)
+    - **Set up the workflow to run a build script before every deploy?** Yes
+    - **What script should be run before every deploy?** (use default)
+    - **Set up automatic deployment to your site's live channel when a PR is merged?** Yes
+    - **What is the name of the GitHub branch associated with your site's live channel?** (use default)
+    - **What file should be used for Storage Rules?** (use default)
+    - **Which Firebase emulators do you want to set up?** Press Space to select emulators, then Enter to confirm your choices. Select Functions, Firestore and Storage.
+    - **Emulators ports** (use default)
+    - **Enable emulators UI** (optional)
+    - **Would you like to download the emulators now?** Yes
