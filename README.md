@@ -2,7 +2,7 @@
 
 # Firebase Workshop
 
-On Wednesday January 22nd, 2025, the our group of developers met to analyze the different characteristics of Firebase as productivity tool.
+On Wednesday January 22nd, 2025, our group of developers met to analyze the different characteristics of Firebase as productivity tool.
 
 Since it offers a good amount of tools as the cloud service it is, we considered worth researching.
 
@@ -17,7 +17,8 @@ It is important to acknowledge the fact that, behind the scenes, all the Firebas
 
 ### Prerequisites
 
-- A Google account to work with
+- A Google account to work with.
+    - It will be important to have a billing account linked to the Google account, as Firebase Functions require users to be in the Blaze (pay as you go) plan.
 
 - A Firebase project
     - Log in to the [Firebase Console](https://console.firebase.google.com/u/0/) using your existing Google account.
@@ -65,3 +66,13 @@ It is important to acknowledge the fact that, behind the scenes, all the Firebas
     - **Emulators ports** (use default)
     - **Enable emulators UI** (optional)
     - **Would you like to download the emulators now?** Yes
+
+### Create Firebase Functions
+
+In order to create Firebase Functions (Cloud functions), it is required to write their code in the index file (index.ts in this case), describing what each of them will do. Keep in mind the current version is Gen2.
+
+After completing the coding, ```npm run build``` must be executed in the functions folder.
+
+With that, the functions will eventually become available in the emulators.
+
+Upon executing ```firebase emulators:start```, they will become available to request via Postman.
